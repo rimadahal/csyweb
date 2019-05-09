@@ -3,9 +3,9 @@
 	padding: 0;
 }
 .header{
-	height: 3px;
+	height: 350px;
 	padding: 2%;
-	background-color: blue;
+	background-color: lightblue;
 	text-align: left;
 	position: top;
 }
@@ -18,6 +18,16 @@ nav ul li{
 	margin: 2%;
 	padding: 0%;
 }
+.flex-container{
+	display: flex;
+	padding: 2%;
+}
+h1{
+
+  	margin: 0.5%;
+	padding: 1%;
+	font-size: 20px;
+}
 nav ul li a{
 	text-decoration: none;
 	display: block;
@@ -27,13 +37,11 @@ nav ul li a{
 	background-color: yellow;
 	text-decoration-color: white;
 }
-.flex-container{
-	display: flex;
-	padding: 2%;
-}
+
 p{
 	text-align: center;
 	height: 50px;
+
 }
 
 html, body {
@@ -63,11 +71,6 @@ h{
 	background-color: silver;
 }
 
-p1{
-	font-size: 22px;
-	display: block;
-	text-align: center;
-}
 p2{
 	font-size: 20px;
 	width: 10%;
@@ -80,10 +83,15 @@ p3{
 	background-color: grey;
 
 }
-
+p1{
+	font-size: 22px;
+	text-align: center;
+	display: block;
+}
 .footer{
 	margin-bottom: 0;
 	width: 100%;
 	height: 5%;
 	background-color: lightblue;
 }
+

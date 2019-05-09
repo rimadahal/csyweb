@@ -3,9 +3,9 @@
 	padding: 0;
 }
 .header{
-	height: 3px;
+	height: 350px;
 	padding: 2%;
-	background-color: blue;
+	background-color: lightblue;
 	text-align: left;
 	position: top;
 }
@@ -22,6 +22,13 @@ nav ul li{
 	display: flex;
 	padding: 2%;
 }
+h1{
+
+  	margin: 0.5%;
+	padding: 1%;
+	font-size: 20px;
+	background-color: white;
+}
 nav ul li a{
 	text-decoration: none;
 	display: block;
@@ -35,6 +42,7 @@ nav ul li a{
 p{
 	text-align: center;
 	height: 50px;
+
 }
 
 html, body {
