@@ -8,7 +8,8 @@
 	background-color: lightblue;
 	text-align: left;
 	position: top;
-}
+} /* size, color and position of the header section is set. */ 
+
 nav ul{
 	margin: 5px;
 	padding: 0;
@@ -16,18 +17,17 @@ nav ul{
 nav ul li{
 	list-style: none;
 	margin: 2%;
-	padding: 0%;
+	padding: 0%; /* margin, padding and style is set for the items with nav tag */
 }
 .flex-container{
 	display: flex;
-	padding: 2%;
+	padding: 2%; /* flex property is set for the items in flex-container. */
 }
 h1{
 
   	margin: 0.5%;
 	padding: 1%;
 	font-size: 20px;
-	background-color: white;
 }
 nav ul li a{
 	text-decoration: none;
@@ -37,12 +37,11 @@ nav ul li a{
 	height: 30px;
 	background-color: yellow;
 	text-decoration-color: white;
+
 }
-
 p{
-	text-align: center;
-	height: 50px;
-
+	text-align: center;	
+	font-size: 50px;
 }
 
 html, body {
@@ -55,13 +54,15 @@ html, body {
 .mainbody{
 	height: 100%;
 	width: 100%;
-	background-image: url(imgnews.jpg);
+	background-image: url(imgnews.jpg); /* background image is set. */
 	text-align: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	overflow: auto;
-}
+} /* size, popsition and image are set. */
+
+
 h1{
 	font-size: 25px;
 }
@@ -71,10 +72,11 @@ h1{
 	width: 100%;
 	height: 5%;
 	background-color: lightblue;
-}
+} /* properties of footer section are set. */
+
 p1{
 	font-size: 22px;
-	text-align-last: center;
+	text-align-last: center; /* position of text is managed. */
 	display: block;
 }
 p2{
