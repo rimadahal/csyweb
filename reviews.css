@@ -3,25 +3,30 @@
 	padding: 0;
 }
 .header{
-	height: 350px;
+	height: 150px;
 	padding: 2%;
 	background-color: lightblue;
 	text-align: left;
 	position: top;
 } /* size, color and position of the header section is set. */ 
 
-nav ul{
-	margin: 5px;
-	padding: 0;
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 45px;
 }
-nav ul li{
-	list-style: none;
-	margin: 2%;
-	padding: 0%; /* margin, padding and style is set for the items with nav tag */
+.nav a{
+	border: solid 3px;
+	border-style: all;
+	text-decoration-line: none;
+
 }
+
 .flex-container{
 	display: flex;
-	padding: 2%; /* flex property is set for the items in flex-container. */
+	padding: 2%;
+	flex-direction: row; /* flex property is set for the items in flex-container. */
 }
 h1{
 
@@ -29,16 +34,7 @@ h1{
 	padding: 1%;
 	font-size: 20px;
 }
-nav ul li a{
-	text-decoration: none;
-	display: block;
-	font-size: 25px;
-	width: 120%;
-	height: 30px;
-	background-color: yellow;
-	text-decoration-color: white;
 
-}
 p{
 	text-align: center;	
 	font-size: 50px;
@@ -64,9 +60,8 @@ html, body {
 
 
 .reviews{
-	height: 20px;
+	height: 5px;
 	width: 250px;
-	background-color: green;
 	color: white;
 }
 h1{
@@ -94,3 +89,9 @@ p2{
 	height: 5%;
 	background-color: lightblue;
 } /* properties of footer section are set. */ 
+
+@media only screen and (max-width: 600px){
+	.nav{
+		display: column;
+	}
+}
