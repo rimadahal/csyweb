@@ -14,13 +14,17 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	height: 45px;
+		max-width: 100%;
+
 }
 .nav a{
 	border: solid 3px;
 	border-style: all;
 	text-decoration-line: none;
-
+	transition: 1s;
+}
+.nav a:hover{
+	width: 200px;
 }
 
 .flex-container{
@@ -76,12 +80,11 @@ p1{
 	display: block;
 }
 p2{
-	font-size: 35px;
+	font-size: 30px;
 	display: block;
 }
 
-@media only screen and (max-width: 600px){
-	.nav{
-		display: column;
-	}
+p3{
+	font-size: 30px;
+	display: block;
 }

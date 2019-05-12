@@ -14,13 +14,15 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	height: 45px;
 }
 .nav a{
 	border: solid 3px;
 	border-style: all;
 	text-decoration-line: none;
-
+	transition: 1s;
+}
+.nav a:hover{
+	width: 20px;
 }
 
 .flex-container{
@@ -93,9 +95,3 @@ p1{
 	height: 5%;
 	background-color: lightblue;
 } /* properties of footer section are set. */
-
-@media only screen and (max-width: 600px){
-	.nav{
-		display: column;
-	}
-}
